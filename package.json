@@ -1,0 +1,39 @@
+{
+  "name": "svg-line-segments",
+  "version": "1.0.0",
+  "description": "turn a linearized svg into an array of arrays of [x,y] pairs",
+  "main": "index.js",
+  "dependencies": {
+    "parse-svg-path": "~0.1.1"
+  },
+  "devDependencies": {
+    "brfs": "~1.2.0",
+    "svg-linearize": "~1.0.0",
+    "load-svg": "~1.0.0",
+    "testling": "^1.7.1",
+    "tape": "^3.0.0"
+  },
+  "scripts": {
+    "test": "browserify test/*.js | testling"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/substack/svg-line-segments.git"
+  },
+  "homepage": "https://github.com/substack/svg-line-segments",
+  "keywords": [
+    "browser",
+    "svg",
+    "linear",
+    "line",
+    "segment",
+    "path",
+    "coordinate"
+  ],
+  "author": {
+    "name": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net"
+  },
+  "license": "MIT"
+}
