@@ -1,7 +1,7 @@
 # svg-line-segments
 
 turn a [linearized svg](https://npmjs.org/package/svg-linearize)
-into an array of paths of `[x,y]` pairs
+into an array of paths of `[x,y]` pairs using Browserify & svg-linearize by [substack](https://www.npmjs.com/package/svg-linearize)
 
 # example
 
